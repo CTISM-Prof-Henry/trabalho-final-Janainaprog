@@ -12,13 +12,13 @@ O projeto deve ser publicado no **GitHub Pages** e apresentado em aula para o pr
 
 ## 📌 Checklist
 
-* [ ] meu site tem pelo menos um arquivo do tipo `.html` 
-* [ ] estou usando CSS externo, em um arquivo separado `.css`
-* [ ] estou usando Javascript externo, em um arquivo separado `.js`
+* [X ] meu site tem pelo menos um arquivo do tipo `.html` 
+* [X ] estou usando CSS externo, em um arquivo separado `.css`
+* [X ] estou usando Javascript externo, em um arquivo separado `.js`
 * [ ] os arquivos do meu site estão na pasta `site`
 * [ ] a pasta `site` tem um arquivo `index.html`, que é a página inicial do meu site; sem esse arquivo, o GitHub Pages 
       não vai funcionar
-* [ ] estou ciente que, se eu modificar ou excluir arquivos que não estejam na pasta `site` 
+* [x ] estou ciente que, se eu modificar ou excluir arquivos que não estejam na pasta `site` 
       (por exemplo, `.github` ou `README.md`), isso pode afetar o funcionamento do meu site
 * [ ] respondi todas as perguntas e preenchi todos os checkboxes abaixo
 * [ ] meu site está hospedado no GitHub Pages, no link `<escreva aqui o link do seu site>`
@@ -27,9 +27,9 @@ O projeto deve ser publicado no **GitHub Pages** e apresentado em aula para o pr
 
 Descreva abaixo **sobre o que se trata seu site:**
 
-- **Tema:**
-- **Público-alvo:**
-- **Funcionalidades:**
+- **Catálogo de Produtos 3D de uma loja:**
+- **Clientes:**
+- **Visualizar os produtos que a loja confecciona:**
 
 ## Uso de IA
 
@@ -51,28 +51,28 @@ Marque com `[x]` os elementos que **foram implementados no seu site**. Você nã
 
 #### Estrutura básica
 
-- [ ] `<!DOCTYPE html>`
-- [ ] `<html>`
-- [ ] `<head>`
-- [ ] `<title>`
-- [ ] `<body>`
+- [ X] `<!DOCTYPE html>`
+- [ X] `<html>`
+- [X ] `<head>`
+- [X ] `<title>`
+- [X ] `<body>`
 
 #### Estrutura semântica
 
-- [ ] `<header>`
+- [X ] `<header>`
 - [ ] `<nav>`
-- [ ] `<main>`
-- [ ] `<section>`
+- [X ] `<main>`
+- [X ] `<section>`
 - [ ] `<article>`
 - [ ] `<aside>`
-- [ ] `<footer>`
+- [ X] `<footer>`
 
 #### Conteúdo
 
-- [ ] Títulos (`h1`, `h2`, `h3`, etc.)
+- [ X] Títulos (`h1`, `h2`, `h3`, etc.)
 - [ ] Parágrafos (`p`)
-- [ ] Imagens (`img`)
-- [ ] Links (`a`)
+- [X ] Imagens (`img`)
+- [ X] Links (`a`)
 - [ ] Listas:
   - [ ] `ul`
   - [ ] `ol`
@@ -80,23 +80,23 @@ Marque com `[x]` os elementos que **foram implementados no seu site**. Você nã
 #### Formulários
 
 - [ ] `<form>`
-- [ ] `<input>`
-- [ ] `<label>`
+- [X ] `<input>`
+- [x ] `<label>`
 - [ ] `<textarea>`
 - [ ] `<button>`
 
 ### 🎨 CSS
 
 - Seletor de...
-  - [ ] Classes (`.classe`)
+  - [ x] Classes (`.classe`)
   - [ ] IDs (`#id`)
   - [ ] pseudoclasse (`#a::hover`)
-- [ ] Cores
-- [ ] Tipografia (e.g. `font-family`)
-- [ ] Margem e padding
-- [ ] Layout com `flexbox`
+- [ x] Cores
+- [x ] Tipografia (e.g. `font-family`)
+- [x ] Margem e padding
+- [x ] Layout com `flexbox`
 - [ ] Layout com `grid`
-- [ ] Responsividade (`media queries`)
+- [x ] Responsividade (`media queries`)
 - [ ] Animações ou transições
 
 ## ⚙️ JavaScript
@@ -105,8 +105,8 @@ Marque com `[x]` os elementos que **foram implementados no seu site**. Você nã
 - [ ] Eventos (`click`, `submit`, etc.)
 - [ ] Validação de formulário
 - [ ] Alteração dinâmica de conteúdo
-- [ ] Uso de funções
-- [ ] Uso de arrays ou objetos
+- [ x] Uso de funções
+- [x ] Uso de arrays ou objetos
 - [ ] Uso de `fetch` ou API externa
 - [ ] local Storage
 
