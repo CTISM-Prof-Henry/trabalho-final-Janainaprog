@@ -1,0 +1,41 @@
+body {
+    background-color: lightyellow;
+}
+.container {
+    display: flex;
+    flex-direction: row;/* row, column, row-reverse, column-reverse*/
+    justify-content: space-between;
+    //*
+    flex-star
+    flex-end - comeca uma coluna depois
+    center - espacamento menor que uma coluna no começo
+    space-between - espaçamento entre as colunas
+    space-around - espaçamento menor entre as colunas
+    space-evenly - espaçamento medio entre as colunas
+    */
+    align-items: baseline;
+    /*
+    flex-start
+    flex-end
+    center
+    stretch
+    baseline
+     */
+    flex-wrap: wrap;
+    /*
+    nowrap
+    wrap
+    wrap-reverse - linha vai para final da pagina
+    *ambos os eixos*
+    */
+    row-gap:5px;/* vertical */
+    column-gap:50px;
+    height: 300px;
+    background-color: aquamarine;
+}
+.item {
+    width: 100px;
+    height: 50px;
+    margin: 5px;
+    background-color: azure;
+}
